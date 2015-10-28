@@ -42,6 +42,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIWebView *webView = [[UIWebView alloc] init];
+    webView.frame = self.view.bounds;
+    
+    NSString *urlAddress = @"https://www.decidethefuture.org/";
+    NSURL *url = [NSURL URLWithString:urlAddress];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:requestObj];
+    
+    [self.view addSubview:webView];
 }
 
 - (void)viewDidUnload {

@@ -26,11 +26,11 @@
 		37D0A469192B077E009DC9F4 /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification.wav; sourceTree = "<group>"; };
 		37E277211ACBB40100D49C8D /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = ../iOS_SDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
 		37F9CA1C19D9CBAD0084DB7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DE4BCB63161638D4003F4A66 /* OneSignalExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneSignalExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE4BCB6F161638D4003F4A66 /* OneSignalExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneSignalExample-Info.plist"; sourceTree = "<group>"; };
+		DE4BCB63161638D4003F4A66 /* Fight for the Future.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fight for the Future.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4BCB6F161638D4003F4A66 /* Fight for the Future-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fight for the Future-Info.plist"; sourceTree = "<group>"; };
 		DE4BCB71161638D4003F4A66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE4BCB73161638D4003F4A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE4BCB75161638D4003F4A66 /* OneSignalExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OneSignalExample-Prefix.pch"; sourceTree = "<group>"; };
+		DE4BCB75161638D4003F4A66 /* Fight for the Future-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fight for the Future-Prefix.pch"; sourceTree = "<group>"; };
 		DE4BCB76161638D4003F4A66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE4BCB77161638D4003F4A66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DE4BCB7A161638D4003F4A66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		DE4BCB64161638D4003F4A66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE4BCB63161638D4003F4A66 /* OneSignalExample.app */,
+				DE4BCB63161638D4003F4A66 /* Fight for the Future.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				DEE5C41B162F34490024001B /* Default-568h@2x.png */,
-				DE4BCB6F161638D4003F4A66 /* OneSignalExample-Info.plist */,
+				DE4BCB6F161638D4003F4A66 /* Fight for the Future-Info.plist */,
 				DE4BCB70161638D4003F4A66 /* InfoPlist.strings */,
 				DE4BCB73161638D4003F4A66 /* main.m */,
-				DE4BCB75161638D4003F4A66 /* OneSignalExample-Prefix.pch */,
+				DE4BCB75161638D4003F4A66 /* Fight for the Future-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE4BCB62161638D4003F4A66 /* OneSignalExample */ = {
+		DE4BCB62161638D4003F4A66 /* Fight for the Future */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE4BCB81161638D4003F4A66 /* Build configuration list for PBXNativeTarget "OneSignalExample" */;
+			buildConfigurationList = DE4BCB81161638D4003F4A66 /* Build configuration list for PBXNativeTarget "Fight for the Future" */;
 			buildPhases = (
 				DE4BCB5F161638D4003F4A66 /* Sources */,
 				DE4BCB60161638D4003F4A66 /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = OneSignalExample;
+			name = "Fight for the Future";
 			productName = "push-notifications";
-			productReference = DE4BCB63161638D4003F4A66 /* OneSignalExample.app */;
+			productReference = DE4BCB63161638D4003F4A66 /* Fight for the Future.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,11 +133,11 @@
 		DE4BCB5A161638D4003F4A66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = OneSignal;
 				TargetAttributes = {
 					DE4BCB62161638D4003F4A66 = {
-						DevelopmentTeam = 99SW8E36CT;
+						DevelopmentTeam = 4TJ7SJCQSK;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE4BCB5D161638D4003F4A66 /* Build configuration list for PBXProject "OneSignalExample" */;
+			buildConfigurationList = DE4BCB5D161638D4003F4A66 /* Build configuration list for PBXProject "Fight for the Future" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE4BCB62161638D4003F4A66 /* OneSignalExample */,
+				DE4BCB62161638D4003F4A66 /* Fight for the Future */,
 			);
 		};
 /* End PBXProject section */
@@ -215,12 +215,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					armv7s,
-					arm64,
-					i386,
-				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -228,10 +222,15 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -246,8 +245,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fightforthefuture.ios;
+				PRODUCT_NAME = org.fightforthefuture.ios;
+				PROVISIONING_PROFILE = "a933a7ce-ad88-4129-98ea-b7eb443fe916";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s arm64 i386";
 			};
@@ -257,12 +259,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					armv7s,
-					arm64,
-					i386,
-				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -270,9 +266,13 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -283,6 +283,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fightforthefuture.ios;
+				PRODUCT_NAME = org.fightforthefuture.ios;
+				PROVISIONING_PROFILE = "a933a7ce-ad88-4129-98ea-b7eb443fe916";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s arm64 i386";
@@ -293,19 +296,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iOS Distribution: Lilomi Inc.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../iOS_SDK/Framework\"/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "push-notifications/OneSignalExample-Prefix.pch";
+				GCC_PREFIX_HEADER = "push-notifications/Fight for the Future-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../iOS_SDK/Framework\"/**";
-				INFOPLIST_FILE = "push-notifications/OneSignalExample-Info.plist";
+				INFOPLIST_FILE = "push-notifications/Fight for the Future-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = OneSignalExample;
-				PROVISIONING_PROFILE = "615caa30-95a0-457e-97d0-cd016ca658eb";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fightforthefuture.ios;
+				PRODUCT_NAME = "Fight for the Future";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -314,19 +319,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iOS Distribution: Lilomi Inc.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../iOS_SDK/Framework\"/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "push-notifications/OneSignalExample-Prefix.pch";
+				GCC_PREFIX_HEADER = "push-notifications/Fight for the Future-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../iOS_SDK/Framework\"/**";
-				INFOPLIST_FILE = "push-notifications/OneSignalExample-Info.plist";
+				INFOPLIST_FILE = "push-notifications/Fight for the Future-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = OneSignalExample;
-				PROVISIONING_PROFILE = "615caa30-95a0-457e-97d0-cd016ca658eb";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fightforthefuture.ios;
+				PRODUCT_NAME = "Fight for the Future";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -334,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE4BCB5D161638D4003F4A66 /* Build configuration list for PBXProject "OneSignalExample" */ = {
+		DE4BCB5D161638D4003F4A66 /* Build configuration list for PBXProject "Fight for the Future" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE4BCB7F161638D4003F4A66 /* Debug */,
@@ -343,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE4BCB81161638D4003F4A66 /* Build configuration list for PBXNativeTarget "OneSignalExample" */ = {
+		DE4BCB81161638D4003F4A66 /* Build configuration list for PBXNativeTarget "Fight for the Future" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE4BCB82161638D4003F4A66 /* Debug */,
