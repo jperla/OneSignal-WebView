@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                if (additionalData.has("actionSelected"))
                   messageBody += "\nPressed ButtonID: " + additionalData.getString("actionSelected");
 
-               messageBody = message + "\n\nFull additionalData:\n" + additionalData.toString();
+               //messageBody = message + "\n\nFull additionalData:\n" + additionalData.toString();
             }
          } catch (JSONException e) {
          }
