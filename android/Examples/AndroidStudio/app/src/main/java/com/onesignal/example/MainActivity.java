@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
       webSettings.setJavaScriptEnabled(true);
       // Force links and redirects to open in the WebView instead of in a browser
       mWebView.setWebViewClient(new WebViewClient());
-      mWebView.loadUrl("https://www.fightforthefuture.org/");
+      mWebView.loadUrl("https://jperla.github.io/OneSignal-WebView/");
 
       currentActivity = this;
 
