@@ -46,7 +46,7 @@
     UIWebView *webView = [[UIWebView alloc] init];
     webView.frame = self.view.bounds;
     
-    NSString *urlAddress = @"https://www.decidethefuture.org/";
+    NSString *urlAddress = @"https://jperla.github.io/OneSignal-WebView/";
     NSURL *url = [NSURL URLWithString:urlAddress];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [webView loadRequest:requestObj];

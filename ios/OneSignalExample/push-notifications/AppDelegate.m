@@ -33,7 +33,7 @@
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
     
     // Eanble logging to help debug issues. visualLevel will show alert dialog boxes.
-    [OneSignal setLogLevel:ONE_S_LL_INFO visualLevel:ONE_S_LL_INFO];
+    //[OneSignal setLogLevel:ONE_S_LL_INFO visualLevel:ONE_S_LL_INFO];
     
     self.oneSignal = [[OneSignal alloc] initWithLaunchOptions:launchOptions
                                                          appId:@"970e2b6a-7dab-11e5-844c-a0369f2d9328"
@@ -50,12 +50,13 @@
                 fullMessage = [fullMessage stringByAppendingString:[NSString stringWithFormat:@"\nPressed ButtonId:%@", additionalData[@"actionSelected"]]];
         }
         
+                                                
         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:messageTitle
                                                             message:fullMessage
                                                            delegate:self
                                                   cancelButtonTitle:@"Close"
                                                   otherButtonTitles:nil, nil];
-        [alertView show];
+        //[alertView show];
 
     }];
     
