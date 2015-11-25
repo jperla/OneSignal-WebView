@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
       webSettings.setJavaScriptEnabled(true);
       // Force links and redirects to open in the WebView instead of in a browser
       mWebView.setWebViewClient(new WebViewClient());
-      mWebView.loadUrl("https://jperla.github.io/OneSignal-WebView/");
+      mWebView.loadUrl(getString(R.string.app_url));
 
       currentActivity = this;
 
@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
        */
       @Override
       public void notificationOpened(String message, JSONObject additionalData, boolean isActive) {
+         mWebView.loadUrl(getString(R.string.app_url));
+
          String messageTitle = "OneSignal Example", messageBody = message;
 
          try {
